@@ -33,6 +33,6 @@ Node* segregateEvenOdd(Node* head)
         curr=curr->next;
     }
     ev->next=d2->next;
-    odd->next=NULL;
+    odd->next=NULL;  //as we created new linked list we should make end of it as NULL
     return d1->next;
 }
